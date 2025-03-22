@@ -8,6 +8,8 @@ public class CalcularAreaCirculo {
         "deseas calculaar su area:");
         double radio = s.nextDouble();
 
+        //Hacer uso de Math, para poder usar Pi, y su valor
+
         radio = Math.pow(radio, 2);
         System.out.println("El area del circulo es:\n" + 
         (Math.PI * radio));
